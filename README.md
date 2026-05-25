@@ -26,17 +26,15 @@
 
 <p> Now, let's do something interesting with that number. Really, you could do anything to make it work, but what I'll do is attempt to create the smallest unique sound the represents the "number", via this python script. </p>
 
-<dl>
-<code>
-	<dt> import wave<br> </dt>
-	<dt> with wave.open("your-file-name.wav", 'wb') as file: <br> </dt>
-	<dd>file.setnchannels(1)<br></dd>
-	<dd>	file.setsampwidth(2)<br> </dd>
-	<dd>	file.setframerate(44100)<br> </dd>
-	<dd>	a = bytes(b"put hash here") <br> </dd>
-	<dd>		file.writeframes(a) <br> </dd>
-</code>
-</dl>
+<pre><code class="language-python">import wave
+
+with wave.open("your-file-name.wav", 'wb') as file:
+    file.setnchannels(1)
+    file.setsampwidth(2)
+    file.setframerate(44100)
+    a = bytes(b"put hash here")
+    file.writeframes(a)
+</code></pre>
 
 <p> <i>change your-file-name.wav and put-hash-here to your desired filename and hash</i></p>
 
