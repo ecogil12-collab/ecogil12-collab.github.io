@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Copying Technique</title><style type="text/css">body{margin:40px
-auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
-10px}h1,h2,h3{line-height:1.2}</style>
-
 <header>
 <h1> The Copying Technique </h1>
 <aside> or: how to create the perfect sound </aside>
@@ -59,8 +53,3 @@ auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
 <p> That's everything. Hope you found it helpful. If you have any questions, please feel free to contact me at <a href=mailto:avivyodfat@proton.me>my email</a> </p>
 
 <p> <em> With love, <br> Aviv  </em> </p>
-
-
-
-</body>
-</html>
